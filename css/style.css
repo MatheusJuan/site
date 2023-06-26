@@ -1,0 +1,202 @@
+.body {
+    background-color: var(--fundo);
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+:root {
+    --fundo: #ffffff;
+    --branco: #ffffff;
+    --preto: #000;
+    --cinza: #8C8C8C;
+    --cinza2: #cacaca;
+    --cinza3: #f0f0f0;
+}
+
+/* container 01*/
+.intro{
+    margin-top: 50px;
+}
+.h1 {
+    color: var(--cinza);
+
+}
+
+.h5 {
+    color: var(--cinza);
+    font-size: 15.9124px;
+    padding-bottom: 19px;
+}
+
+.p {
+    color: var(--cinza);
+    font-size: 15.9124px;
+}
+
+.container {
+    padding-top: 20px;
+    padding-bottom: 150px;
+
+}
+.row-img{
+    padding: 40px;
+}
+/* conteiner 01*/
+
+
+/* container 02*/
+.container-skill{
+    text-align: center;
+}
+
+.h1r, .h5r{
+    color: var(--cinza);
+}
+.p-2{
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20.22px;
+line-height: 28px;
+color: var(--cinza);
+text-align: center;
+margin: 10px;
+}
+
+.alink{
+    color: var(--branco);
+    text-decoration: none;
+}
+.alink:hover{
+    color: var(--branco);
+    text-decoration: none;
+}
+/* container 02*/
+
+
+.desc-func{
+    color: var(--cinza2);
+}
+/* container 03 Carrossel de imagens*/
+.carousel-item {
+    background-color: var(--cinza);
+}
+.carousel-control-next, .carousel-control-prev{
+    color: var(--cinza);
+}
+.Behance{
+    color: var(--branco);
+    background-color:var(--cinza);
+    border-radius: 50px;
+    padding: 15px;
+}
+.btn-primary{
+    color: var(--branco)!important;
+    background-color: var(--cinza)!important;
+    border: var(--cinza)!important;
+}
+/* container 03 Carrossel de imagens*/
+
+/* Btn Whats*/
+.whatsapp-button {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 9999;
+  }
+  .whatsapp-button a {
+    display: block;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 24px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  .whatsapp-button a:hover {
+    background-color: #128c7e;
+  }
+/* Btn Whats*/
+
+.card{
+    background-color: #8C8C8C;
+    color: var(--branco);
+    font-family: 'Open Sans';
+}
+
+/* Bloco agendar*/
+
+.chamada{
+    background-color: var(--cinza);
+    color: var(--branco);
+    font-family: 'Open Sans';
+    border-radius: 10px;
+}
+.agendar{
+    background-color: var(--branco) !important;
+    color: var(--cinza) !important;
+}
+/* Bloco agendar*/
+
+/* Footer*/
+.footer{
+    background-color: var(--cinza);
+}
+.redesfooter{
+    color: var(--branco);
+}
+/* Footer */
+
+  /* Estilos para responsividade em dispositivos móveis */
+  @media (max-width: 576px) {
+    .whatsapp-button {
+      right: 10px;
+      bottom: 10px;
+    }
+    .whatsapp-button a {
+      width: 50px;
+      height: 50px;
+      line-height: 50px;
+      font-size: 20px;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    .body {
+        text-align: center;
+    }
+    .botao-cert{
+        color: var(--cinza);
+        background-color: var(--fundo);
+        border-radius: 50px;
+        padding: 10px;
+        text-decoration:none;
+        transition: botao-cert .3s;
+        white-space: normal;
+    
+    }
+    .carousel-item {
+        background-color: var(--cinza);
+        width: 330%;
+    }
+}
+
+/* Estilizando a barra de rolagem */
+::-webkit-scrollbar {
+    width: 15px; /* Largura da barra de rolagem */
+  }
+  
+  /* Estilizando o polegar (a parte móvel da barra de rolagem) */
+  ::-webkit-scrollbar-thumb {
+    background-color: #8C8C8C; /* Cor de fundo do polegar */
+    border-radius: 4px; /* Raio de borda do polegar */
+  }
+  
+  /* Alterando a cor do fundo da barra de rolagem */
+  ::-webkit-scrollbar-track {
+    background-color: #ffffff; /* Cor de fundo da barra de rolagem */
+  }
