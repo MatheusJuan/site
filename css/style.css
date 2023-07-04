@@ -127,7 +127,7 @@ margin: 10px;
 /* Btn Whats*/
 
 .card{
-    background-color: #8C8C8C;
+    background-color: var(--cinza);
     color: var(--branco);
     font-family: 'Open Sans';
 }
