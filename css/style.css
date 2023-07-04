@@ -184,6 +184,7 @@
 /* Footer*/
 .footer {
     background-color: var(--cinza);
+    color: var(--amarelo);
 }
 
 .redesfooter {
