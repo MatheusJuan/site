@@ -279,6 +279,21 @@
   <script>
     AOS.init();
   </script>
+    <script>
+      // Adiciona um ouvinte de evento para a roda do mouse
+      document.addEventListener("wheel", event => {
+        event.preventDefault(); // Impede o comportamento padrão da rolagem
+  
+        // Calcula a quantidade de rolagem com base no evento da roda do mouse
+        const scrollAmount = event.deltaY;
+  
+        // Faz a rolagem suave para o corpo do documento
+        window.scrollBy({
+          top: scrollAmount,
+          behavior: "smooth"
+        });
+      });
+    </script>
 </body>
 </body>
 
