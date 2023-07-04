@@ -1,6 +1,6 @@
 let Scrollbar = window.scrollbar;
 
-conts options = {
+const options = {
     'damping' : .1
 }
 
