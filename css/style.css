@@ -203,11 +203,11 @@ margin: 10px;
   
   /* Estilizando o polegar (a parte móvel da barra de rolagem) */
   ::-webkit-scrollbar-thumb {
-    background-color: #8C8C8C; /* Cor de fundo do polegar */
+    background-color: var(--amarelo); /* Cor de fundo do polegar */
     border-radius: 4px; /* Raio de borda do polegar */
   }
   
   /* Alterando a cor do fundo da barra de rolagem */
   ::-webkit-scrollbar-track {
-    background-color: #ffffff; /* Cor de fundo da barra de rolagem */
+    background-color: var(--fundo); /* Cor de fundo da barra de rolagem */
   }
