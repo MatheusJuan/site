@@ -68,11 +68,11 @@ margin: 10px;
 }
 
 .alink{
-    color: var(--branco);
+    color: var(--fundo);
     text-decoration: none;
 }
 .alink:hover{
-    color: var(--branco);
+    color: var(--fundo);
     text-decoration: none;
 }
 /* container 02*/
