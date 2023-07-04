@@ -32,6 +32,10 @@
     color: var(--cinza);
     font-size: 15.9124px;
 }
+.flex-row{
+    flex-flow: wrap;
+    justify-content:center;
+}
 
 .container {
     padding-top: 20px;
