@@ -137,7 +137,7 @@ margin: 10px;
 /* Bloco agendar*/
 
 .chamada{
-    background-color: var(--cinza);
+    background-color: var(--fundo);
     color: var(--branco);
     font-family: 'Open Sans';
     border-radius: 10px;
@@ -145,7 +145,7 @@ margin: 10px;
 }
 .agendar{
     background-color: var(--branco) !important;
-    color: var(--cinza) !important;
+    color: var(--fundo) !important;
 }
 /* Bloco agendar*/
 
