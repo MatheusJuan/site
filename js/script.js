@@ -1,7 +1,3 @@
-let Scrollbar = window.scrollbar;
-
-const options = {
-    'damping' : .1
-}
-
-scrollbar.init(document.querySelector('body'));
+document.addEventListener("DOMContentLoaded", function() {
+    var scrollbar = SmoothScrollbar.init(document.querySelector("body"));
+  });
