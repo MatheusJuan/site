@@ -282,17 +282,6 @@
   <script>
     // Adiciona um ouvinte de evento para a roda do mouse
     document.addEventListener("wheel", event => {
-      // Verifica se a rolagem é vertical
-      const isScrollingVertically = Math.abs(event.deltaY) > Math.abs(event.deltaX);
-
-      // Verifica se a rolagem é tratada como passiva
-      const isPassive = event.target.classList.contains('passive-scroll') && isScrollingVertically;
-
-      // Impede o comportamento padrão da rolagem se não for passiva
-      if (!isPassive) {
-        event.preventDefault();
-      }
-
       // Calcula a quantidade de rolagem com base no evento da roda do mouse
       const scrollAmount = event.deltaY;
 
@@ -301,7 +290,7 @@
         top: scrollAmount,
         behavior: "smooth"
       });
-    }, { passive: true });
+    });
   </script>
 </body>
 </body>
