@@ -1,11 +1,14 @@
 .body {
     background-color: var(--fundo);
-    width: 100%;
     height: 100%;
-    overflow: auto;
     font-family: 'Montserrat', sans-serif;
+    height: 2000px;
+    overflow: auto;
     scroll-behavior: smooth;
+    scroll-duration: 500ms;
+    scroll-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
 }
+
 :root {
     --fundo: #112118;
     --fundo2: #0b1d0b;
@@ -17,9 +20,10 @@
 }
 
 /* container 01*/
-.intro{
+.intro {
     margin-top: 50px;
 }
+
 .h1 {
     color: var(--amarelo);
     font-size: 35px;
@@ -36,9 +40,10 @@
     color: var(--branco);
     font-size: 15.9124px;
 }
-.flex-row{
+
+.flex-row {
     flex-flow: wrap;
-    justify-content:center;
+    justify-content: center;
 }
 
 .container {
@@ -46,43 +51,52 @@
     padding-bottom: 150px;
 
 }
-.row-img{
+
+.row-img {
     padding: 40px;
 }
+
 /* conteiner 01*/
 
 
 /* container 02*/
-.container-skill{
+.container-skill {
     text-align: center;
 }
 
-.h1r, .h5r{
+.h1r,
+.h5r {
     color: var(--amarelo);
 }
-.p-2{
-font-style: normal;
-font-weight: 700;
-font-size: 20.22px;
-line-height: 28px;
-color: var(--cinza);
-text-align: center;
-margin: 10px;
+
+.p-2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20.22px;
+    line-height: 28px;
+    color: var(--cinza);
+    text-align: center;
+    margin: 10px;
 }
-.card-title{
+
+.card-title {
     color: var(--branco);
 }
-.alink{
+
+.alink {
     color: var(--branco);
     text-decoration: none;
 }
-.alink:hover{
+
+.alink:hover {
     color: var(--branco);
     text-decoration: none;
 }
-.desc-func{
+
+.desc-func {
     color: var(--branco);
 }
+
 /* container 02*/
 
 
@@ -90,20 +104,25 @@ margin: 10px;
 .carousel-item {
     background-color: var(--cinza);
 }
-.carousel-control-next, .carousel-control-prev{
+
+.carousel-control-next,
+.carousel-control-prev {
     color: var(--cinza);
 }
-.Behance{
+
+.Behance {
     color: var(--amarelo);
-    background-color:var(--cinza);
+    background-color: var(--cinza);
     border-radius: 50px;
     padding: 15px;
 }
-.btn-primary{
-    color: var(--fundo)!important;
-    background-color: var(--amarelo)!important;
-    border: var(--cinza)!important;
+
+.btn-primary {
+    color: var(--fundo) !important;
+    background-color: var(--amarelo) !important;
+    border: var(--cinza) !important;
 }
+
 /* container 03 Carrossel de imagens*/
 
 /* Btn Whats*/
@@ -112,8 +131,9 @@ margin: 10px;
     right: 20px;
     bottom: 20px;
     z-index: 9999;
-  }
-  .whatsapp-button a {
+}
+
+.whatsapp-button a {
     display: block;
     background-color: #25d366;
     color: #fff;
@@ -125,71 +145,81 @@ margin: 10px;
     font-size: 24px;
     text-decoration: none;
     transition: background-color 0.3s ease;
-  }
-  .whatsapp-button a:hover {
+}
+
+.whatsapp-button a:hover {
     background-color: #128c7e;
-  }
+}
+
 /* Btn Whats*/
 
-.card{
+.card {
     background-color: var(--fundo2);
     color: var(--amarelo);
 }
 
 /* Bloco agendar*/
 
-.chamada{
+.chamada {
     background-color: var(--amarelo);
     color: var(--fundo);
     border-radius: 10px;
-    margin:30px;
+    margin: 30px;
 }
-.agendar{
+
+.agendar {
     background-color: var(--fundo) !important;
     color: var(--amarelo) !important;
 }
-.vamos{
+
+.vamos {
     color: var(--fundo);
 }
+
 /* Bloco agendar*/
 
 /* Footer*/
-.footer{
+.footer {
     background-color: var(--cinza);
 }
-.redesfooter{
+
+.redesfooter {
     color: var(--amarelo);
 }
+
 /* Footer */
 
-  /* Estilos para responsividade em dispositivos móveis */
-  @media (max-width: 576px) {
+/* Estilos para responsividade em dispositivos móveis */
+@media (max-width: 576px) {
     .whatsapp-button {
-      right: 10px;
-      bottom: 10px;
+        right: 10px;
+        bottom: 10px;
     }
-    .whatsapp-button a {
-      width: 50px;
-      height: 50px;
-      line-height: 50px;
-      font-size: 20px;
-    }
-  }
 
-  @media (max-width: 1200px) {
+    .whatsapp-button a {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1200px) {
     .body {
         text-align: center;
     }
-    .botao-cert{
+
+    .botao-cert {
         color: var(--cinza);
         background-color: var(--fundo);
         border-radius: 50px;
         padding: 10px;
-        text-decoration:none;
+        text-decoration: none;
         transition: botao-cert .3s;
         white-space: normal;
-    
+
     }
+
     .carousel-item {
         background-color: var(--cinza);
         width: 330%;
@@ -198,16 +228,20 @@ margin: 10px;
 
 /* Estilizando a barra de rolagem */
 ::-webkit-scrollbar {
-    width: 15px; /* Largura da barra de rolagem */
-  }
-  
-  /* Estilizando o polegar (a parte móvel da barra de rolagem) */
-  ::-webkit-scrollbar-thumb {
-    background-color: var(--amarelo); /* Cor de fundo do polegar */
-    border-radius: 4px; /* Raio de borda do polegar */
-  }
-  
-  /* Alterando a cor do fundo da barra de rolagem */
-  ::-webkit-scrollbar-track {
-    background-color: var(--fundo); /* Cor de fundo da barra de rolagem */
-  }
+    width: 15px;
+    /* Largura da barra de rolagem */
+}
+
+/* Estilizando o polegar (a parte móvel da barra de rolagem) */
+::-webkit-scrollbar-thumb {
+    background-color: var(--amarelo);
+    /* Cor de fundo do polegar */
+    border-radius: 4px;
+    /* Raio de borda do polegar */
+}
+
+/* Alterando a cor do fundo da barra de rolagem */
+::-webkit-scrollbar-track {
+    background-color: var(--fundo);
+    /* Cor de fundo da barra de rolagem */
+}
