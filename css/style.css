@@ -81,6 +81,10 @@
     color: var(--branco);
 }
 
+.card-body{
+    border-color: var(--fundo2);
+}
+
 .alink {
     color: var(--branco);
     text-decoration: none;
