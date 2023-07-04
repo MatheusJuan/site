@@ -285,13 +285,17 @@
       // Calcula a quantidade de rolagem com base no evento da roda do mouse
       const scrollAmount = event.deltaY;
 
-      // Faz a rolagem suave para o corpo do documento
-      window.scrollBy({
+      // Configuração da rolagem suave personalizada
+      const scrollOptions = {
         top: scrollAmount,
-        behavior: "smooth"
-      });
+        behavior: "smooth",
+        duration: 500, // Duração da animação em milissegundos
+        easing: "cubic-bezier(0.42, 0, 0.58, 1)" // Tipo de aceleração da animação
+      };
+
+      // Faz a rolagem suave para o corpo do documento
+      window.scrollBy(scrollOptions);
     });
-  </script>
 </body>
 </body>
 
