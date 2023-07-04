@@ -1,3 +1,4 @@
 document.addEventListener("DOMContentLoaded", function() {
-    var scrollbar = SmoothScrollbar.init(document.querySelector("body"));
+    var scrollbar = document.querySelector("#my-scrollbar");
+    var scrollbarInstance = SmoothScrollbar.init(scrollbar);
   });
