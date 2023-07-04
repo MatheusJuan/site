@@ -81,8 +81,9 @@
     color: var(--branco);
 }
 
-.card-body{
+.card{
     border-color: var(--fundo2);
+    border: 0px;
 }
 
 .alink {
