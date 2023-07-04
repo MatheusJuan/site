@@ -23,13 +23,13 @@
 }
 
 .h5 {
-    color: var(--cinza);
+    color: var(--branco);
     font-size: 15.9124px;
     padding-bottom: 19px;
 }
 
 .p {
-    color: var(--cinza);
+    color: var(--branco);
     font-size: 15.9124px;
 }
 .flex-row{
@@ -70,11 +70,11 @@ margin: 10px;
     color: var(--fundo);
 }
 .alink{
-    color: var(--fundo);
+    color: var(--amarelo);
     text-decoration: none;
 }
 .alink:hover{
-    color: var(--fundo);
+    color: var(--amarelo);
     text-decoration: none;
 }
 /* container 02*/
