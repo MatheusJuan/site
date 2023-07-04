@@ -69,7 +69,6 @@ margin: 10px;
 }
 .card-title{
     color: var(--branco);
-    background-color: var(--fundo2);
 }
 .alink{
     color: var(--branco);
@@ -79,12 +78,12 @@ margin: 10px;
     color: var(--branco);
     text-decoration: none;
 }
+.desc-func{
+    color: var(--branco);
+}
 /* container 02*/
 
 
-.desc-func{
-    color: var(--fundo2);
-}
 /* container 03 Carrossel de imagens*/
 .carousel-item {
     background-color: var(--cinza);
