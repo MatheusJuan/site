@@ -20,12 +20,13 @@
 }
 .h1 {
     color: var(--amarelo);
+    font-size: 35px;
 
 }
 
 .h5 {
     color: var(--branco);
-    font-size: 15.9124px;
+    font-size: 12px;
     padding-bottom: 19px;
 }
 
