@@ -68,7 +68,8 @@ text-align: center;
 margin: 10px;
 }
 .card-title{
-    color: var(--fundo2);
+    color: var(--branco);
+    background-color: var(--fundo2);
 }
 .alink{
     color: var(--branco);
