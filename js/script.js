@@ -1,7 +1,7 @@
 let Scrollbar = window.scrollbar;
 
 conts options = {
-    'damping' : 0.1
+    'damping' : .1
 }
 
 scrollbar.init(document.querySelector('body'));
