@@ -6,9 +6,9 @@
 }
 :root {
     --fundo: #112118;
-    --branco: #c79a43;
+    --amarelo: #c79a43;
     --preto: #000;
-    --cinza: #ffffff;
+    --branco: #ffffff;
     --cinza2: #cacaca;
     --cinza3: #f0f0f0;
 }
@@ -18,7 +18,7 @@
     margin-top: 50px;
 }
 .h1 {
-    color: var(--branco);
+    color: var(--amarelo);
 
 }
 
@@ -54,7 +54,7 @@
 }
 
 .h1r, .h5r{
-    color: var(--branco);
+    color: var(--amarelo);
 }
 .p-2{
 font-family: 'Open Sans';
@@ -91,14 +91,14 @@ margin: 10px;
     color: var(--cinza);
 }
 .Behance{
-    color: var(--branco);
+    color: var(--amarelo);
     background-color:var(--cinza);
     border-radius: 50px;
     padding: 15px;
 }
 .btn-primary{
     color: var(--fundo)!important;
-    background-color: var(--branco)!important;
+    background-color: var(--amarelo)!important;
     border: var(--cinza)!important;
 }
 /* container 03 Carrossel de imagens*/
@@ -130,14 +130,14 @@ margin: 10px;
 
 .card{
     background-color: var(--cinza);
-    color: var(--branco);
+    color: var(--amarelo);
     font-family: 'Open Sans';
 }
 
 /* Bloco agendar*/
 
 .chamada{
-    background-color: var(--branco);
+    background-color: var(--amarelo);
     color: var(--fundo);
     font-family: 'Open Sans';
     border-radius: 10px;
@@ -145,7 +145,7 @@ margin: 10px;
 }
 .agendar{
     background-color: var(--fundo) !important;
-    color: var(--branco) !important;
+    color: var(--amarelo) !important;
 }
 /* Bloco agendar*/
 
@@ -154,7 +154,7 @@ margin: 10px;
     background-color: var(--cinza);
 }
 .redesfooter{
-    color: var(--branco);
+    color: var(--amarelo);
 }
 /* Footer */
 
