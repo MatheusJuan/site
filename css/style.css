@@ -6,6 +6,7 @@
 }
 :root {
     --fundo: #112118;
+    --fundo2: #060b08;
     --amarelo: #c79a43;
     --preto: #000;
     --branco: #ffffff;
@@ -67,21 +68,21 @@ text-align: center;
 margin: 10px;
 }
 .card-title{
-    color: var(--fundo);
+    color: var(--fundo2);
 }
 .alink{
-    color: var(--amarelo);
+    color: var(--branco);
     text-decoration: none;
 }
 .alink:hover{
-    color: var(--amarelo);
+    color: var(--branco);
     text-decoration: none;
 }
 /* container 02*/
 
 
 .desc-func{
-    color: var(--fundo);
+    color: var(--fundo2);
 }
 /* container 03 Carrossel de imagens*/
 .carousel-item {
