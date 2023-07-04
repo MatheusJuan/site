@@ -282,27 +282,6 @@
   <script>
     AOS.init();
   </script>
-  <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
-    crossorigin="anonymous">
-    </script>
-  <script>
-    // Adiciona um ouvinte de evento para a roda do mouse
-    document.addEventListener("wheel", event => {
-      // Calcula a quantidade de rolagem com base no evento da roda do mouse
-      const scrollAmount = event.deltaY;
-
-      // Configuração da rolagem suave personalizada
-      const scrollOptions = {
-        top: scrollAmount,
-        behavior: "smooth",
-        duration: 500, // Duração da animação em milissegundos
-        easing: "cubic-bezier(0.42, 0, 0.58, 1)" // Tipo de aceleração da animação
-      };
-
-      // Faz a rolagem suave para o corpo do documento
-      window.scrollBy(scrollOptions);
-    });
-  </script>
 </body>
 </body>
 
