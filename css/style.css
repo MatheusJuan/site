@@ -148,6 +148,9 @@ margin: 10px;
     background-color: var(--fundo) !important;
     color: var(--amarelo) !important;
 }
+.vamos{
+    color: var(--fundo);
+}
 /* Bloco agendar*/
 
 /* Footer*/
