@@ -18,7 +18,7 @@
     margin-top: 50px;
 }
 .h1 {
-    color: var(--cinza);
+    color: var(--branco);
 
 }
 
@@ -98,7 +98,7 @@ margin: 10px;
 }
 .btn-primary{
     color: var(--fundo)!important;
-    background-color: var(--cinza)!important;
+    background-color: var(--branco)!important;
     border: var(--cinza)!important;
 }
 /* container 03 Carrossel de imagens*/
