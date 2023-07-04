@@ -139,8 +139,7 @@ margin: 10px;
     color: var(--branco);
     font-family: 'Open Sans';
     border-radius: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 50px;
 }
 .agendar{
     background-color: var(--branco) !important;
