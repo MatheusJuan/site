@@ -6,7 +6,7 @@
 }
 :root {
     --fundo: #112118;
-    --fundo2: #060b08;
+    --fundo2: #0b1d0b;
     --amarelo: #c79a43;
     --preto: #000;
     --branco: #ffffff;
@@ -130,7 +130,7 @@ margin: 10px;
 /* Btn Whats*/
 
 .card{
-    background-color: var(--cinza);
+    background-color: var(--fundo2);
     color: var(--amarelo);
     font-family: 'Open Sans';
 }
