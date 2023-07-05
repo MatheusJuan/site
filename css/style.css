@@ -53,6 +53,12 @@
 .row-img {
     padding: 40px;
 }
+.row-img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
 .top-bar {
     position: fixed;
     top: 0;
