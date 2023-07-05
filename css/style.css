@@ -64,7 +64,8 @@
     font-size: 20px;
     font-weight: bold;
     z-index: 9999;
-    color: var(--fundo);    
+    color: var(--fundo);
+    backdrop-filter: blur(10px); /* Adiciona o efeito de desfoque */
   }
 /* conteiner 01*/
 
