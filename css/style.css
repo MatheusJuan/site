@@ -53,7 +53,19 @@
 .row-img {
     padding: 40px;
 }
-
+.top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--amarelo);
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    z-index: 9999;
+    color: var(--amarelo);    
+  }
 /* conteiner 01*/
 
 
