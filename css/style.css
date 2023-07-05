@@ -268,3 +268,27 @@
     background-color: var(--fundo);
     /* Cor de fundo da barra de rolagem */
 }
+
+:root {
+    --fundo: #112118;
+    --fundo2: #0b1d0b;
+    --amarelo: #c79a43;
+    --preto: #000;
+    --branco: #ffffff;
+    --cinza2: #cacaca;
+    --cinza3: #f0f0f0;
+}
+.scroll-progress-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 5px;
+  width: 0;
+background: #C79A43;
+background: -moz-linear-gradient(left, #C79A43 0%, #C79A43 49%, #112118 100%);
+background: -webkit-linear-gradient(left, #C79A43 0%, #C79A43 49%, #112118 100%);
+background: linear-gradient(to right, #C79A43 0%, #C79A43 49%, #112118 100%);
+  z-index: 9999;
+  transition: width 0.2s ease;
+  border-radius: 100px;
+}
