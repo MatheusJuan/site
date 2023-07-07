@@ -294,10 +294,9 @@
 .mouse {
 	width: 50px;
 	height: 90px;
-	border: 3px solid #333;
+	border: 3px solid var(--branco);
 	border-radius: 60px;
 	position: relative;
-	transition: opacity 0.5s ease; /* Adiciona a transição suave */
 	&::before {
 		content: '';
 		width: 12px;
@@ -306,7 +305,7 @@
 		top: 10px;
 		left: 50%;
 		transform: translateX(-50%);
-		background-color: #333;
+		background-color: var(--branco);
 		border-radius: 50%;
 		opacity: 1;
 		animation: wheel 2s infinite;
@@ -326,9 +325,4 @@
 		opacity: 0;
 		top: 60px;
 	}
-}
-
-/* Adiciona uma classe ao elemento quando o scroll é detectado */
-.scroll-down {
-	opacity: 0;
 }
