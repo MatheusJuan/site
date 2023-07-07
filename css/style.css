@@ -54,6 +54,12 @@
     padding: 40px;
 }
 
+.row-img img{
+width: 100%;
+padding-left: 130px;
+padding-right: 130px;
+}
+
 .row-img img,
 .card,
 .chamada,
