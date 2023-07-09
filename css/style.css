@@ -50,6 +50,10 @@
 
 }
 
+.row-img {
+    padding: 40px;
+}
+
 .row-img img{
 width: 100%;
 padding-left: 60px;
